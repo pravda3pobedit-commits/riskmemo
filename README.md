@@ -44,3 +44,4 @@ When ready, add `en/index.html` and update:
 ## Vercel
 
 Deploy as a static project from this folder. No build command is needed.
+Deploy trigger: 2026-06-18
