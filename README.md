@@ -4,8 +4,7 @@ Static landing page for a manual suspicious-message review service.
 
 ## What This Is
 
-- One static Russian landing page.
-- English page can be added later under `/en/`.
+- One static Russian landing page plus an English version under `/en/`.
 - Designed for Vercel static hosting.
 - No backend, no accounts, no payments yet.
 - Intake is manual at first: Tally is the primary form. Do not show a public email on the page.
@@ -13,8 +12,9 @@ Static landing page for a manual suspicious-message review service.
 ## Files
 
 - `index.html` - landing page.
+- `en/index.html` - English landing page.
 - `styles.css` - page styling.
-- `assets/hero-analysis.svg` - visual preview of a risk memo.
+- `assets/hero-analysis.svg` and `assets/hero-analysis-en.svg` - visual previews of a risk memo.
 - `robots.txt` and `sitemap.xml` - starter SEO files.
 - `TRAFFIC_PLAN.md` - first traffic strategy.
 - `KEYWORD_RESEARCH.md` - initial keyword clusters.
@@ -32,16 +32,12 @@ Static landing page for a manual suspicious-message review service.
 
 Current public form URL: `https://tally.so/r/eqobyx`.
 
-## Future English Page
+## English Page
 
-When ready, add `en/index.html` and update:
-
-- root page with an English language link.
-- `sitemap.xml` with `/en/`.
-- `hreflang` tags on both pages.
-- `KEYWORD_RESEARCH.md` with live GSC/English-query findings.
+The English page lives at `/en/`. The root and English pages link to each other
+with visible RU/EN links, canonical URLs, and `hreflang` alternates. `sitemap.xml`
+also includes both URLs.
 
 ## Vercel
 
 Deploy as a static project from this folder. No build command is needed.
-Deploy trigger: 2026-06-18
