@@ -30,7 +30,8 @@ Static landing page for a manual suspicious-message review service.
 
 ## Tally
 
-Current public form URL: `https://tally.so/r/eqobyx`.
+Current RU public form URL: `https://tally.so/r/eqobyx`.
+Current EN public form URL: `https://tally.so/r/lbg18v`.
 
 ## English Page
 
