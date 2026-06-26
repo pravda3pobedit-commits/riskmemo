@@ -255,6 +255,7 @@ h3 {
 
 .section {
   padding: 62px 0;
+  scroll-margin-top: 96px;
 }
 
 .section-tight {
@@ -555,6 +556,10 @@ h3 {
 }
 
 @media (max-width: 860px) {
+  .section {
+    scroll-margin-top: 152px;
+  }
+
   .hero,
   .grid-2,
   .grid-3,
@@ -593,6 +598,10 @@ h3 {
 }
 
 @media (max-width: 520px) {
+  .section {
+    scroll-margin-top: 184px;
+  }
+
   .container {
     width: 100%;
     max-width: 100vw;
