@@ -5,6 +5,12 @@ Static landing page for a manual suspicious-message review service.
 ## What This Is
 
 - One static Russian landing page plus an English version under `/en/`.
+- Three first SEO intent pages:
+  - `/ru/proverit-vakansiyu-na-moshennichestvo/`
+  - `/ru/rabota-v-telegram-moshenniki/`
+  - `/job-offer-scam-check/`
+- The Russian landing page embeds the YouTube explainer video `https://www.youtube.com/watch?v=Sr0RIx4Is40`.
+- The English landing page embeds the YouTube explainer video `https://www.youtube.com/watch?v=zgaB2GT45Ho`.
 - Designed for Vercel static hosting.
 - No backend, no accounts, no payments yet.
 - Intake is manual at first: Tally is the primary form. Do not show a public email on the page.
@@ -13,6 +19,9 @@ Static landing page for a manual suspicious-message review service.
 
 - `index.html` - landing page.
 - `en/index.html` - English landing page.
+- `ru/proverit-vakansiyu-na-moshennichestvo/index.html` - Russian vacancy scam check page.
+- `ru/rabota-v-telegram-moshenniki/index.html` - Russian Telegram job scam check page.
+- `job-offer-scam-check/index.html` - English job offer scam check page.
 - `styles.css` - page styling.
 - `assets/hero-analysis.svg` and `assets/hero-analysis-en.svg` - visual previews of a risk memo.
 - `robots.txt` and `sitemap.xml` - starter SEO files.
@@ -38,6 +47,12 @@ Current EN public form URL: `https://tally.so/r/lbg18v`.
 The English page lives at `/en/`. The root and English pages link to each other
 with visible RU/EN links, canonical URLs, and `hreflang` alternates. `sitemap.xml`
 also includes both URLs.
+
+## SEO Sprint 1
+
+The first intent pages are built around human-filter review, not automatic AI verdicts.
+Each page should keep the same core line: check who is writing, what they promise,
+what they ask for, where they apply pressure, and what safe reply can slow the situation down.
 
 ## Vercel
 
